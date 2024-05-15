@@ -30,5 +30,6 @@ login ubuntu
 (colocar senha definida pelo passwd)
 sudo su -
 ufw allow 3389/tcp
+ufw allow 22/tcp
 ufw enable
 ufw reload
