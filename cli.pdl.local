@@ -2,6 +2,7 @@ sudo hostnamectl set-hostname cli.pdl.local
 sudo su -
 apt update && apt upgrade -y
 reboot
+sudo su -
 nano etc/netplan/50-cloud-init.yaml
 ###################################################### ADICONAR ################################################################
 
